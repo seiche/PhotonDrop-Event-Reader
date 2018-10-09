@@ -1,0 +1,281 @@
+html {
+
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+}
+
+body {
+
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #4c719e;
+
+}
+
+main {
+	
+	width: 100%;
+	height: 100%;
+
+}
+
+article.file-select {
+
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 300px;
+	max-height: 600px;
+	background-color: #eee;
+	box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+
+}
+
+article.file-select header {
+
+	height: 26px;
+	width: calc(100% - 4px);
+	background-color: #808080;
+	border: 2px solid transparent;
+	border-image: url('../img/irixfileman_aaaaaaa.png') 2 round;
+
+}
+
+article.file-select header table {
+
+	width: 100%;
+	height: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+
+}
+
+article.file-select section {
+
+	width: calc(100% - 4px);
+	border: 2px solid #606060;
+	border-top-color: #fff;
+	border-left-color: #fff;
+	background-color: #c1c1c1;
+
+}
+
+article.file-select section li {
+
+	list-style-type: none;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #848484;
+	padding: 2px 0;
+	position: relative;
+
+}
+
+article.file-select section li:hover {
+
+	cursor: pointer;
+	text-decoration: underline;
+
+}
+
+/*
+article.file-select section li.active:after {
+	
+	content: "✓";
+	position: absolute;
+	right: 15px;
+	top: 0px;
+	font-size: 19px;
+
+}
+*/
+
+article.file-select section li table {
+
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+
+}
+
+article.file-select section li table tr td:first-child {
+
+	text-indent: 10px;
+
+}
+
+article.file-select section li table tr td:last-child {
+
+	width: 50px;
+	text-align: center;
+
+}
+
+article.file-select section li:first-child {
+
+	border-top: none;
+
+}
+
+article.file-select header table td {
+
+	text-indent: 5px;
+	font-size: 14px;
+	letter-spacing: 1px;
+
+}
+
+article.file-output {
+
+	background-color: #a7a180;
+	width: calc(100% - 650px);
+	left: 360px;
+	top: 30px;
+	height: calc(100% - 80px);
+	position: absolute;
+	box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+
+}
+
+article.file-output div.inner {
+
+	width: calc(100% - 16px);
+	height: calc(100% - 16px);
+	border: 8px solid transparent;
+	border-image: url('../img/irixfileman.png') 8 round;
+
+}
+
+article.file-output div.inner header {
+
+	width: calc(100% - 4px);
+	height: 18px;
+	border: 2px solid #606060;
+	border-left-color: #bbb;
+	border-top-color: #bbb;
+	background-image: url("../img/dithering.png");
+	background-size: 85px 200%;
+}
+
+article.file-output div.inner header table {
+
+	width: 100%;
+	height: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+	font-size: 12px;
+
+}
+
+article.file-output div.inner header table td.icon {
+
+	width: 40px;
+	text-align: center;
+
+}
+
+article.file-output div.inner section {
+
+	height: calc(100% - 46px);
+	width: calc(100% - 24px);
+	padding: 10px;
+	background-color: #c1c1c1;
+	border: 2px solid #606060;
+	border-left-color: #fff;
+	border-top-color: #fff;
+
+}
+
+article.file-output div.inner section pre {
+
+	padding: 5px;
+	margin: 0;
+	border: 1px solid #333;
+	width: calc(100% - 12px);
+	height: calc(100% - 12px);
+	resize: none;
+	overflow-y: scroll;
+	tab-size: 4;
+	-moz-tab-size: 4;
+	background-color: #fff;
+
+}
+
+article.the-pig {
+
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	border: 2px solid #424242;
+	border-top-color: #c6c6c6;
+	border-left-color: #c6c6c6;
+	background-color: #808080;
+	box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+
+}
+
+article.the-pig div.outline {
+
+	width: 98px;
+	height: 98px;
+	margin: 10px;
+	margin-bottom: 9px;
+	border: 1px solid #646464;
+	border-bottom-color: #c0c0c0;
+	border-right-color: #c0c0c0;
+	
+}
+
+article.the-pig div.outline:hover {
+
+	cursor: pointer;
+
+}
+
+article.the-pig div.outline div.pig {
+
+	width: calc(100% - 2px);
+	height: calc(100% - 2px);
+	border: 1px solid #c0c0c0;
+	border-bottom-color: #646464;
+	border-right-color: #646464;
+	background-image: url("../img/Floopy.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80%;
+
+}
+
+article.the-pig div.border-bottom {
+
+	width: 100%;
+	border-bottom: 1px solid #303030;
+
+}
+
+article.the-pig div.label {
+
+	border-top: 1px solid #fff;
+	border-left: 1px solid #606060;
+	border-bottom: 2px solid #606060;
+	border-right: 1px solid #606060;
+	height: 24px;
+	max-width: 120px;
+
+}
+
+article.the-pig div.label table {
+
+	width: 100%;
+	height: 100%;
+	table-layout: fixed;
+	text-align: center;
+	font-size: 14px;
+
+
+}
+

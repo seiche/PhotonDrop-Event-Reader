@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+
+	<head>
+		
+		<title>Ninja Location</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+
+		<script type="text/javascript" src="lib/dexie.min.js"></script>
+		<script type="text/javascript" src="lib/three.min.js"></script>
+		<script type="text/javascript" src="lib/FileSaver.js"></script>
+
+	</head>
+
+	<body>
+
+		<main>
+
+			<article class="file-select">
+				<header>
+					<table>
+						<tr>
+							<td>Toolbox</td>
+						</tr>
+					</table>
+				</header>
+				<section id="filelist">
+					
+					<li data-url="forest01">
+						<table>
+							<tr>
+								<td>
+									Forest 01 Events
+								</td>
+								<td>
+									<input type="checkbox" disabled="disabled" />
+								</td>
+							</tr>
+						</table>
+					</li>
+					
+					<li data-url="forest02">
+						<table>
+							<tr>
+								<td>
+									Forest 02 Events
+								</td>
+								<td>
+									<input type="checkbox" disabled="disabled" />
+								</td>
+							</tr>
+						</table>
+					</li>
+					
+					<li data-url="caves01">
+						<table>
+							<tr>
+								<td>
+									Caves 01 Events
+								</td>
+								<td>
+									<input type="checkbox" disabled="disabled" />
+								</td>
+							</tr>
+						</table>
+					</li>
+					
+					<li data-url="caves02">
+						<table>
+							<tr>
+								<td>
+									Caves 02 Events
+								</td>
+								<td>
+									<input type="checkbox" disabled="disabled" />
+								</td>
+							</tr>
+						</table>
+					</li>
+					
+					<li data-url="caves03">
+						<table>
+							<tr>
+								<td>
+									Caves 03 Events
+								</td>
+								<td>
+									<input type="checkbox" disabled="disabled" />
+								</td>
+							</tr>
+						</table>
+					</li>
+					
+					<li data-url="mines01">
+						<table>
+							<tr>
+								<td>
+									Mines 01 Events
+								</td>
+								<td>
+									<input type="checkbox" disabled="disabled" />
+								</td>
+							</tr>
+						</table>
+					</li>
+					
+					<li data-url="mines02">
+						<table>
+							<tr>
+								<td>
+									Mines 02 Events
+								</td>
+								<td>
+									<input type="checkbox" disabled="disabled" />
+								</td>
+							</tr>
+						</table>
+					</li>
+					
+					<li data-url="ruins01">
+						<table>
+							<tr>
+								<td>
+									Ruins 01 Events
+								</td>
+								<td>
+									<input type="checkbox" disabled="disabled" />
+								</td>
+							</tr>
+						</table>
+					</li>
+					
+					<li data-url="ruins02">
+						<table>
+							<tr>
+								<td>
+									Ruins 02 Events
+								</td>
+								<td>
+									<input type="checkbox" disabled="disabled" />
+								</td>
+							</tr>
+						</table>
+					</li>
+					
+					<li data-url="ruins03">
+						<table>
+							<tr>
+								<td>
+									Ruins 03 Events
+								</td>
+								<td>
+									<input type="checkbox" disabled="disabled" />
+								</td>
+							</tr>
+						</table>
+					</li>
+
+				</section>
+			</article>
+
+			<article class="file-output">
+				<div class="inner">
+					<header>
+						<table>
+							<tr>
+								<td class="icon">-</td>
+								<td class="breadcrumb" id="breadcrumb">Forest 01 Event</td>
+								<td class="icon">+</td>
+								<td class="icon">x</td>
+							</tr>
+						</table>
+					</header>
+					<section>
+						<pre id="textarea"></pre>
+					</section>
+				</div>
+			</article>
+
+			<article class="the-pig" id="download">
+
+				<div class="outline">
+					<div class="pig">
+					</div>
+				</div>
+
+				<div class="border-bottom"></div>
+				<div class="label">
+					<table>
+						<tr>
+							<td>
+								Download
+							</td>
+						</tr>
+					</table>
+				</div>
+
+			</article>
+
+		</main>
+
+		<script type="text/javascript" src="js/document.js"></script>
+		<script type="text/javascript" src="js/lookup.js"></script>
+		<script type="text/javascript" src="js/reader.js"></script>
+
+	</body>
+
+</html>
